@@ -1,0 +1,102 @@
+*{
+  background-color: #f5f5dc;
+  font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper h2 {
+  margin: 0;
+}
+
+#timer-name{
+  font-size:45px;
+  color:#ff4040;
+}
+
+.break-session-length {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+button {
+  border: none;
+  padding: 1px;
+}
+
+strong {
+  margin: 0 8px;
+}
+
+.timer {
+  font-size:30px;
+  border: 0px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  margin: 30px 0;
+  padding-top: 10px;
+}
+
+.timer-wrapper > button {
+  margin-left: 10px
+}
+
+#break-label, 
+#session-label{
+  text-align: center;
+  color: #ff7f50;
+}
+
+#break-length,
+#session-length{
+  font-size:35px;
+}
+
+#start_stop {
+  float:left;
+  margin-left: 0em;
+}
+
+#reset{
+  display: inline-block;
+  margin-left:3.4em;
+}
+
+.glyphicon {
+    font-size: 50px;
+}
+
+.glyphicon:hover{
+  color: #00ced1;
+  cursor:pointer;
+}
+
+.glyphicon.glyphicon-plus,
+.glyphicon.glyphicon-minus{
+    font-size: 20px;
+}
+
+
+#time-left{
+  font-size:90px;
+
+}
+
+#timer-label{
+  color:#66cdaa;
+}
+
+@media(max-width:945px){
+  .break-session-length{
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+  }
+}
